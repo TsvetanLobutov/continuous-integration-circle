@@ -1,3 +1,4 @@
+
 version: 2.1
 executors:
   ci-executor:
@@ -7,4 +8,5 @@ jobs:
   build:
     executor: ci-executor
     steps:
+      - checkout
 
